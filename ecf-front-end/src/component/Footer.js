@@ -1,10 +1,11 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
+import ecfstudent from "../component/Image/ecfstudent.png";
 
 function Footer() {
   return (
     <div className="footer">
-        <h3>This is the Footer </h3>
+      <img href={ecfstudent} />
     </div>
   );
 }
