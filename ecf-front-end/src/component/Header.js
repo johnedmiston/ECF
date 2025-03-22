@@ -28,6 +28,7 @@ function Header() {
             
             
             <NavDropdown title={<span className='dropdown-title'>Contact</span>} id="basic-nav-dropdown">
+            
               <NavDropdown.Item href="#action/3.1">Phone: +1310-844-6948 (Google voice)</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2"> Email: eternitychurch@gmx.com </NavDropdown.Item>
               
