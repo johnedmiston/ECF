@@ -12,24 +12,11 @@
 }
 
 .rightSide {
-    background-color: pink;
+    background-color: rgb(245, 241, 241);
 }
 
 .leftSide {
-    background-color: purple;
+    background-color: rgb(247, 239, 247);
 }
 
-.services {
-    display: flex;
-    gap: 42px;
-   
-}
 
-.serviceItem{
-    width: 300px;
-    height: 100px;
-    background-color: gray;
-    border: 5px solid black;
-    justify-content: space-between;
-    
-}
