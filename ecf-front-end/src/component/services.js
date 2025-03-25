@@ -31,42 +31,8 @@ const services = [
     name: "Free Daily Bible Study",
     link: "https://globalchristians.org/email/bible.html",
   },
-  {
-    name: "Test",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "tes2",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "test3",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "test4",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "test5",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "Test6",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "test7",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "test8",
-    link: "https://globalchristians.org/email/bible.html",
-  },
-  {
-    name: "test9",
-    link: "https://globalchristians.org/email/bible.html",
-  },
+
+ 
 ];
 
 export { services };
