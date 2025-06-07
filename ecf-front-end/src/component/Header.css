@@ -3,6 +3,9 @@
 }
 .top-right-container {
     margin-left: 100px;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
 }
 .mx-auto text-center h1{
     font-size: 10vw;
@@ -21,7 +24,7 @@
 
 #donatebtn {
     margin-left: 40px;
-    background-color: #c4971f;
+    background-color: #c4971f;;
     color: #000;
     height: 35px;
     width: 100px;

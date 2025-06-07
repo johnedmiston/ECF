@@ -1,0 +1,78 @@
+.pastor-section {
+  background: #fffdf6;
+  padding: 4rem 2rem;
+  margin-top: 2rem;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pastor-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pastor-bio {
+  flex: 1;
+  min-width: 280px;
+}
+
+.pastor-bio h2 {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+  font: 500;
+}
+
+.pastor-bio h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+  font-weight: 400;
+}
+
+.pastor-bio p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.brochure-box {
+  flex: 1;
+  background-color: #f4f9ff;
+  border-left: 4px solid #c4971f;;
+  padding: 1.5rem;
+  border-radius: 12px;
+  min-width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.brochure-box p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.brochure-link {
+  display: inline-block;
+  background-color: #c4971f;;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.brochure-link:hover {
+  background-color: #c4971f;;
+}
+
+.pastor-image {
+    height: 300;
+    width: 300;
+}
