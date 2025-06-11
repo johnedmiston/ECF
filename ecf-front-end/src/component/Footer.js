@@ -14,9 +14,9 @@ import Button from "react-bootstrap";
 
 function Footer() {
   return (
+    //Imported and utilized Bootstrap to rows and columns
     //fluid will stretch the component accross the screen
     //bg stands for background color
-    //imported y
     <container fluid>
       <Row className="backgroundColor text-white p-4">
         <Col>
@@ -42,6 +42,7 @@ function Footer() {
           <p>P.O. Box 40, Rhoadesville, VA 22542</p>
         </Col>
         <Col>
+          {/*Created donation button*/}
           <a
             href="https://www.paypal.com/donate?token=cE8d4VHY8i2AYg7JOhtP4e11EuDeDkJ9cRyghJLtt_mUbmMeievM28iDObswQXXX-f-yxt_GX2Mi8fm0"
             class="btn btn-warning btn-lg active"

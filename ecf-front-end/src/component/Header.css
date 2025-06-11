@@ -1,28 +1,90 @@
-.div-fluid {
-    border-radius: 5px;
-}
-.top-right-container {
-    margin-left: 100px;
-}
-.mx-auto text-center h1{
-    font-size: 10vw;
-}
-.dropdown-title {
-    font-size: 2vw;
-    font-weight: 600;
-}
-.basic-nav-dropdown {
-    margin-right: 10px;
-}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    Border: solid rgb(219 193 83);
+  }
+  
+  .header .leftHeader {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:rgb(219 193 83);
+    padding-left: 170px;
+    padding-right: 170px;
+  }
 
-.donate-btn a {
+  
+  .header .leftHeader img {
+    width: 70px;
+  }
+  
+  .header .middleHeader {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+  }
+  
+  .header a {
+    color: black;
     text-decoration: none;
-}
+    margin: 20px;
+    font-size: 18px;
+  }
 
-#donatebtn {
-    margin-left: 40px;
-    background-color: #c4971f;
-    color: #000;
-    height: 35px;
-    width: 100px;
-}
+  .header .rightHeader {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 64px;
+  }
+  
+  .header .rightHeader button {
+      background-color: white;
+      padding: 11px;
+      color: black;
+      Border: solid rgb(219 193 83);
+      border-width: 10px;
+      text-decoration: none;
+      line-height: 30px;
+      font-size: 24px;
+      width: 200px; 
+  }
+  
+  .header .middleHeader svg {
+    font-size: 40px;
+  }
+  
+  .header #open {
+    padding-left: 0px;
+  }
+  .header #open img {
+    display: none;
+  }
+  
+
+  .header #close img {
+    display: inherit;
+  }
+  
+  .header #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .header #close .hiddenLinks { /*display none: ignore element*/
+    display: none;
+  }
+  
+  .header #open a {
+    width: 70px;
+    margin: 5px;
+  }
