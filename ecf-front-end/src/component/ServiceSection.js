@@ -1,6 +1,6 @@
 import React from "react";
 import { services } from "./services";
-import "./Services.css";
+import "./services.css";
 
 const Servicesection = ()=>{
     return (
