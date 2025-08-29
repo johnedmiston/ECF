@@ -18,7 +18,7 @@ function Body() {
             </p>
             <p className="hero-description">
               We are a Bible-based evangelical/charismatic church. 
-              <br /> (See our statement of faith at left).
+              <br /> (See our statement of faith below).
             </p>
           </div>
           <div className="image-side">

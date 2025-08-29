@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+//import NavDropdown from 'react-bootstrap/NavDropdown';
 import ECFlogo from './Image/ECFlogo.png';
 import { Button } from 'react-bootstrap';
 import "./Header.css"
@@ -23,9 +23,9 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-center">
           <h1>Eternity Christian Fellowship</h1> 
-
-          {/*<Nav className="top-right-container">
+            <Nav className="top-right-container">
             
+          {/*
             
             <NavDropdown title={<span className='dropdown-title'>Contact</span>} id="basic-nav-dropdown">
             
@@ -44,7 +44,7 @@ function Header() {
               </Button>
             </Nav.Link>
             </Nav>
-          
+            </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
