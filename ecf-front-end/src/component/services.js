@@ -2,8 +2,12 @@ import React from "react";
 import ebooks from "../component/Image/Free christian ebooks.png";
 import biblestudy from "../component/Image/free Daily Bible study.png";
 import uplifting from "../component/Image/Uplifting radio program.png";
-import ebooks2 from "../component/Image/free Daily Bible study.png";
-
+import learnpraying from "../component/Image/Learn How to Pray Today.png";
+import constitution from "../component/Image/Constitution of faith.png";
+import eternityradio from "../component/Image/Eternity radio.png";
+import Continuum from "../component/Image/The spiritual Continunm.png";
+import ebooks2 from "../component/Image/daily bible study.png";
+import becomechristian from "../component/Image/how to become a christian.png";
 const services = [
   {
     name: "Uplifting Moments Radio Program",
@@ -13,27 +17,27 @@ const services = [
   {
     name: "EternityRadio.Org",
     link: "https://eternityradio.org/",
-    image:ebooks
+    image:eternityradio 
   },
   {
     name: "Constitution & Statement of Faith",
     link: "https://eternity.church/assets/ecf_constitution.pdf",
-    image:ebooks2
+    image:constitution
   },
   {
     name: "How To Become A Christian",
     link: "https://globalchristians.org/starterkit/",
-    image:ebooks2
+    image:becomechristian
   },
   {
     name: "The Spiritual Continuum",
     link: "https://spiritualcontinuum.org/",
-    image:ebooks
+    image:Continuum
   },
   {
     name: "Learn How To Pray",
     link: "https://newtestamentprayer.com/",
-    image:ebooks2
+    image:learnpraying
   },
   {
     name: "Free Christian Ebooks",
@@ -43,7 +47,7 @@ const services = [
   {
     name: "Free Daily Bible Study",
     link: "https://globalchristians.org/email/bible.html",
-    image:biblestudy
+    image:ebooks2
   },
 
  

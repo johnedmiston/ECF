@@ -24,7 +24,7 @@ function Header() {
           <Nav className="mx-auto text-center">
           <h1>Eternity Christian Fellowship</h1> 
 
-          <Nav className="top-right-container">
+          {/*<Nav className="top-right-container">
             
             
             <NavDropdown title={<span className='dropdown-title'>Contact</span>} id="basic-nav-dropdown">
@@ -37,13 +37,14 @@ function Header() {
               Mailing Address: P.O. Box 40, Rhoadesville, VA 22542
               </NavDropdown.Item>
             </NavDropdown>
+            */}
             <Nav.Link href="#link">
             <Button className='donate-btn' id='donatebtn'>
-               <a href='https://www.paypal.com/donate?token=5XnJh_wHyiowCuoL_CCVr2f-XqgjtyX20Gx6-VvxcUGfYsl5dHuLItH9lztEBCwCZFp3eeJD9ku_7w5s'>Donate</a>
+               <a href='https://cybermissions.org/give/'>Donate</a>
               </Button>
             </Nav.Link>
             </Nav>
-          </Nav>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

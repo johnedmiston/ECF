@@ -43,7 +43,7 @@ function Footer() {
         </Col>
         <Col>
           <a
-            href="https://www.paypal.com/donate?token=cE8d4VHY8i2AYg7JOhtP4e11EuDeDkJ9cRyghJLtt_mUbmMeievM28iDObswQXXX-f-yxt_GX2Mi8fm0"
+            href="https://cybermissions.org/give/"
             class="btn btn-warning btn-lg active"
             role="button"
             aria-pressed="true"

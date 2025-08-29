@@ -2,6 +2,10 @@
   background: #fffdf6;
   padding: 4rem 2rem;
   margin-top: 2rem;
+  align-items: center;
+  /*margin-left: 25%;
+  margin-right: 25%;
+  */
   
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

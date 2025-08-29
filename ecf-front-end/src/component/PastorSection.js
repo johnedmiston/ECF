@@ -18,7 +18,7 @@ function PastorSection() {
           </p>
         </div>
 
-        {/* Right side: Brochure notice */}
+        {/* Right side: Brochure notice 
         <div className="brochure-box">
           <p>
             We have produced a free brochure called <strong>How To Pray During This Time of COVID-19</strong>.
@@ -31,9 +31,10 @@ function PastorSection() {
             rel="noopener noreferrer"
             className="brochure-link"
           >
-            📄 Download Brochure (PDF)
+             Download Brochure (PDF)
           </a>
         </div>
+        */}
       </div>
     </section>
   );

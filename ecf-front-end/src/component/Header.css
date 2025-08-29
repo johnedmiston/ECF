@@ -1,5 +1,8 @@
 .div-fluid {
     border-radius: 5px;
+    background-color: #f2e4ca;
+    margin-top: -8px;
+
 }
 .top-right-container {
     margin-left: 100px;
@@ -24,7 +27,7 @@
 
 #donatebtn {
     margin-left: 40px;
-    background-color: #c4971f;;
+    background-color: #c4971f;
     color: #000;
     height: 35px;
     width: 100px;
